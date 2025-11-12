@@ -94,7 +94,7 @@ class SendMessageWidgetState extends State<SendMessageWidget> {
     final scrollToBottomButtonConfig =
         chatListConfig.scrollToBottomButtonConfig;
 
-    print("fix version 0.0.1")
+    print("fix version 0.0.1");
     return Align(
       alignment: Alignment.bottomCenter,
       child: isCustomTextField
