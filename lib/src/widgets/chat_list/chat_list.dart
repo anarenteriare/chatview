@@ -92,7 +92,7 @@ class ChatList extends StatefulWidget {
   /// Behavior for dismissing the keyboard when scrolling.
   ///
   /// Defaults to `ScrollViewKeyboardDismissBehavior.onDrag`.
-  final ScrollViewKeyboardDismissBehavior? scrollViewKeyboardDismissBehavior;
+  final ScrollViewKeyboardDismissBehavior scrollViewKeyboardDismissBehavior;
 
   /// Provides configuration for the context menu in the chat list.
   ///
