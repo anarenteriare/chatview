@@ -99,7 +99,7 @@ class SendMessageWidgetState extends State<SendMessageWidget> {
           ? Builder(
               // Assign the key only when using a custom text field to measure its height,
               // to preventing overlap with the message list.
-              key: GlobalKey(),
+              key: chatViewIW?.chatTextFieldViewKey,
               builder: (context) {
                 WidgetsBinding.instance.addPostFrameCallback(
                   (_) => context.calculateAndUpdateTextFieldHeight(),
