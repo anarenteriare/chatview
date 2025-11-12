@@ -93,6 +93,8 @@ class SendMessageWidgetState extends State<SendMessageWidget> {
     final isCustomTextField = widget.sendMessageBuilder != null;
     final scrollToBottomButtonConfig =
         chatListConfig.scrollToBottomButtonConfig;
+
+    print("fix version 0.0.1")
     return Align(
       alignment: Alignment.bottomCenter,
       child: isCustomTextField
